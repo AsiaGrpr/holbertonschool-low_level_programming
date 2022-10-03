@@ -6,7 +6,7 @@
  * main - print the last digit
  *@void: Null value
  *
- * Return : Zero value
+ * Return: Zero value
 */
 
 int main(void)
