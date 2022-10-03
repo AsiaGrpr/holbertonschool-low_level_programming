@@ -3,12 +3,12 @@
 /* more headers goes there */
 #include <stdio.h>
 /**
- * main - compare a number and zero.
+ * main - compare a number and zero
  * @void: Null value
  *
  * Return: Zero value
-*\
- 
+*/
+
 int main(void)
 {
 	int n;
