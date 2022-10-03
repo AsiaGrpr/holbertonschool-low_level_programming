@@ -7,6 +7,7 @@
  *
  * Return : Zero value
 */
+
 int main(void)
 {
 	int n, digit;
