@@ -2,7 +2,9 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+/**
+ * Variable_comparison - Comparison of rand number and zero
+*/
 int main(void)
 {
 	int n;
@@ -12,7 +14,7 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("%d est positif\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
