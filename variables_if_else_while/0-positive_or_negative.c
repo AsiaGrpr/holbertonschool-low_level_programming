@@ -3,7 +3,7 @@
 /* more headers goes there */
 #include <stdio.h>
 /**
- * Variable_comparison - Comparison of rand number and zero
+ * Main_function_comparison - Comparison of rand number and zero
 */
 int main(void)
 {
