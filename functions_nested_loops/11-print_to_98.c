@@ -9,11 +9,12 @@
 */
 void print_to_98(int n)
 {
-	for (n < 98; n++)
+	while (n < 98)
 	{
 		_putchar (n);
 		_putchar (44);
 		_putchar (32);
+		n++;
 	}
 	_putchar (10);
 	return (0);
