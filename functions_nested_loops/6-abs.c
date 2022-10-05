@@ -27,7 +27,7 @@ int _abs(int)
 	else
 	{
 		int resultat = soustraction(0, n)
-			putchar(resultat + '0');
+			_putchar(resultat + '0');
 		return (0);
 	}
 }
