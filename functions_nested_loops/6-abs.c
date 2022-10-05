@@ -2,26 +2,27 @@
 
 /**
  *_abs - give the absolute number
- *@int: number to check
+ *@n: number to check
  *
  * Return: Null value
 */
 
 int _abs(int)
 {
-	if (int > 0)
+	int n;
+	if (n > 0)
 	{
-		_putchar('%d', int);
+		_putchar('%d', n);
 		return (0);
 	}
-	else if (int == 0)
+	else if (n == 0)
 	{
 		_putchar('0');
 		return (0);
 	}
 	else
 	{
-		z = 0 - int
+		z = 0 - n
 		_putchar('%d', z);
 		return (0);
 	}
