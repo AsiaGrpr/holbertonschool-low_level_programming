@@ -6,23 +6,28 @@
  *
  * Return: Null value
 */
-
-int _abs(int n)
+int soustraction(int o, int n)
 {
+	return (o - n);
+}
+
+int _abs(int)
+{
+	int n;
+
 	if (n > 0)
 	{
-		_putchar('%d', n);
-		return (0);
+		return (n);
 	}
+
 	else if (n == 0)
 	{
-		_putchar('0');
 		return (0);
 	}
 	else
 	{
-		z = 0 - n
-		_putchar('%d', z);
+		int resultat = soustraction(0, n)
+			putchar(resultat + '0');
 		return (0);
 	}
 }
