@@ -6,15 +6,8 @@
  *
  * Return: Null value
 */
-int soustraction(int o, int n)
+int _abs(int n)
 {
-	return (o - n);
-}
-
-int _abs(int)
-{
-	int n;
-
 	if (n > 0)
 	{
 		return (n);
@@ -22,12 +15,11 @@ int _abs(int)
 
 	else if (n == 0)
 	{
-		return (0);
+		return (n);
 	}
 	else
 	{
-		int resultat = soustraction(0, n)
-			_putchar(resultat + '0');
-		return (0);
+		n = -n;
+		return (n);
 	}
 }
