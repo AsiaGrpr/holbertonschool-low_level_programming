@@ -2,9 +2,8 @@
 
 /**
  *_islower - check if a letter is lowercase
- *@void: Null value
  *
- * Return: Zero value
+ * Return: 1 or 0
 */
 
 int _islower(int c)
