@@ -15,7 +15,7 @@ void times_table(void)
 		for (y = 0; y < 10; y++)
 		{
 			p = x * y;
-			_putchar(p +'0');
+			_putchar((p % 10) +'0');
 		}
 	}
 }
