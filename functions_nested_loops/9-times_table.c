@@ -16,14 +16,18 @@ void times_table(void)
 		{
 			p = x * y;
 			if (p < 10)
+			{
 				_putchar(' ');
 				_putchar(p + '0');
 				_putchar(',');
+			}
 			else
+			{
 				_putchar((p / 10) + '0');
 				_putchar((p % 10) + '0');
 				_putchar(',');
 				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
