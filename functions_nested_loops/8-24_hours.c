@@ -4,8 +4,6 @@
  *jack_bauer - print all minutes of the day, format 00:00
  *@void: Null value
  *
- *@h: hours
- *@m: minutes
  * Return: the hours of the complete day
 */
 void jack_bauer(void)
