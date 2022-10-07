@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- *FizzBuzz - print each number from 1 to 100
+ *main - print each number from 1 to 100
  *multiples of 3 printed Fizz instead
  *multiples of 5 printed Buzz instead
  *etc
+ *return: null value
  */
-void main(void)
+void main(int)
 {
 	int i;
 
@@ -25,4 +26,5 @@ void main(void)
 		printf("FizzBuzz")
 	}
 	printf("\n");
+	return (0);
 }
