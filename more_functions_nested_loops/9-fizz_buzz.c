@@ -6,10 +6,12 @@
  *multiples of 5 printed Buzz instead
  *etc
  */
-int i;
-
-for (i = 0; i < 100; i++)
+void main(void)
 {
+	int i;
+
+	for (i = 0; i < 100; i++)
+	{
 	if ((i % 3) = 0)
 	{
 		printf("Fizz");
