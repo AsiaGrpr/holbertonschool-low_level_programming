@@ -7,7 +7,7 @@
  *etc
  *return: null value
  */
-void main(int)
+int main(int)
 {
 	int i;
 
