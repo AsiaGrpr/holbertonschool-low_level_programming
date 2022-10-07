@@ -7,24 +7,22 @@
  *etc
  *return: null value
  */
-int main(int)
+int main(int i)
 {
-	int i;
-
 	for (i = 0; i < 100; i++)
 	{
-	if ((i % 3) = 0)
-	{
-		printf("Fizz");
-	}
-	else if ((i % 5) = 0)
-	{
-		printf("Buzz");
-	}
-	else if ((i % 3) = 0 && (i % 5) = 0)
-	{
-		printf("FizzBuzz")
-	}
+		if ((i % 3) = 0)
+		{
+			printf("Fizz");
+		}
+		else if ((i % 5) = 0)
+		{
+			printf("Buzz");
+		}
+		else if ((i % 3) = 0 && (i % 5) = 0)
+		{
+			printf("FizzBuzz")
+		}
 	printf("\n");
 	return (0);
 }
