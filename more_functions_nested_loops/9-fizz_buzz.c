@@ -5,7 +5,8 @@
  *multiples of 3 printed Fizz instead
  *multiples of 5 printed Buzz instead
  *etc
- *return: null value
+ *
+ *Return: Null value
  */
 int main(void)
 {
@@ -27,9 +28,8 @@ int main(void)
 		}
 		else
 		{
-			printf(i)
+			printf("%d", i);
 		}
 	printf("\n");
 	}
-	return (0);
 }
