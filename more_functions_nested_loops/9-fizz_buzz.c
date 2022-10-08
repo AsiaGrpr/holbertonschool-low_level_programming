@@ -28,13 +28,12 @@ int main(void)
 		}
 		else if (i == 100)
 		{
-			printf("Buzz");
+			printf("Buzz\n");
 		}
 		else
 		{
 			printf("%d ", i);
 		}
 	}
-	printf("\n");
 	return (0);
 }
