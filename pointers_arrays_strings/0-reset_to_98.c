@@ -6,8 +6,9 @@
  *
  * Return: Null value
  */
-void reset_to_98(int *n)
+void reset_to_98(int n)
 {
+	int n;
 	int *n = n;
 	int *n = 402;
 
