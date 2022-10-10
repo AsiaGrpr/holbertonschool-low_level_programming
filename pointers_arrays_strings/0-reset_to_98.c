@@ -2,7 +2,7 @@
 
 /**
  *reset_to_98 - update the value of n to 98
- *@n: value to update
+ *@*n: value to update
  *
  * Return: Null value
  */
