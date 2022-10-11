@@ -19,7 +19,7 @@ void rev_string(char *s)
 	}
 	c--;
 
-	for (a = 0; a < (c / 2); a++)
+	for (a = 0; a <= (c / 2); a++)
 	{
 		char tmp = s[c - a];
 
