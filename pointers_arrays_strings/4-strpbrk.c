@@ -10,21 +10,21 @@
 char *_strpbrk(char *s, char *accept)
 {
 	char *dest = s;
-	int i;
-	int j;
 
-	for (i = 0; s[i] != '\0'; ++i)
+	while (*s != '\0')
 	{
-		for (j = 0; accept[j] != '\0'; ++j)
+		while (*accept != '\0')
 		{
-			if (s[i] == accept[j])
+			if (*s == *accept)
 			{
-				*dest = s[i];
+				*dest = *s;
+				dest++;
 			}
-
+			accept++;
 		}
-
+		s++;
 	}
+	dest++;
 	*dest = '\0';
 	return (dest);
 }
