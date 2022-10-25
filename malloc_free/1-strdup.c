@@ -11,21 +11,18 @@
 char *_strdup(char *str)
 {
 	int i;
-	int len = strlen(str);
+	int len;
 	char *p;
 
-	if (len == 0)
-	{
-		p = malloc(1);
+	/* on recupère l'erreur avant de l'utiliser */
+	if (str == NULL)
+		return (NULL);
 
-		p = '\0';
-	}
-	if (len != 0)
-	{
+	len = strlen(str);
+
 	p = malloc(sizeof(char) * (len + 1));
-	}
-
-	if (str == NULL || p == NULL)
+	/* si malloc echoue on arrete le programe */
+	if (p == NULL)
 	{
 		return (NULL);
 	}
