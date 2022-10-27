@@ -6,7 +6,8 @@
  *
  * Return: NULL value
  */
-void main(VOID)
+int main(VOID)
 {
-	printf("%s\n", _BASE_FILE_);
+	printf("%s\n", __BASE_FILE__);
+	return (0);
 }
