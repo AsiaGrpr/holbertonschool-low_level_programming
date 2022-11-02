@@ -24,10 +24,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			if (i == (n - 1))
 				printf("%d", p);
 
-			if (separator == NULL)
+			else if (separator == NULL)
 				printf("%d ", p);
 
-			if (i != (n - 1))
+			else if (i != (n - 1))
 				printf("%d%s", p, separator);
 		}
 		va_end(list);
