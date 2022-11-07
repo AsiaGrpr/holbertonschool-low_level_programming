@@ -14,4 +14,16 @@ void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
+void pr_c(va_list tall);
+void pr_i(va_list tall);
+void pr_f(va_list tall);
+void pr_s(va_list tall);
+
+
+typedef struct print
+{
+	char *t_arg;
+	void (*f)(va_list);
+} print_arg;
+
 #endif
