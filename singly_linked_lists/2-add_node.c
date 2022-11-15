@@ -3,7 +3,7 @@
 
 /**
  * add_node - f° that adds a node at the beginning of a linked list
- * @head: poiner to head pointer of the linked list
+ * @head: pointer to head pointer of the linked list
  * @str: string to add in the new node
  *
  * Return: the address of the new element, or NULL if it failed
