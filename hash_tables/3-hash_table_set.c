@@ -49,17 +49,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *valuedup;
 	hash_node_t *node = NULL, *new = NULL;
 
-	index = key_index((unsigned char *)key, ht->size);
-
 	if (!key || strcmp(key, "") == 0 || !ht || !value)
 		return (0);
 
+	index = key_index((unsigned char *)key, ht->size);
+
 	valuedup = strdup(value);
 	if (!valuedup)
-	{
-		free(node);
 		return (0);
-	}
 
 	node = ht->array[index];
 
